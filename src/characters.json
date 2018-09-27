@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Edward Bighead",
+    "image": "./images/Edward_Bighead.png"
+  },
+  {
+    "id": 2,
+    "name": "Dr Hutchinson",
+    "image": "./images/Dr_Hutchinson.png"
+  },
+  {
+    "id": 3,
+    "name": "Filburt",
+    "image": "./images/Filburt.png"
+  },
+  {
+    "id": 4,
+    "name": "Frank Hutchinson",
+    "image": "./images/Frank_Hutchison.png"
+  },
+  {
+    "id": 5,
+    "name": "Heffer Wolfe",
+    "image": "./images/Heffer_Wolfe.png"
+  },
+  {
+    "id": 6,
+    "name": "Judge Sockner",
+    "image": "./images/Judge_Sockner.png"
+  },
+  {
+    "id": 7,
+    "name": "Mr Dupette",
+    "image": "./images/Mr_Dupette.png"
+  },
+  {
+    "id": 8,
+    "name": "Mr Smithy",
+    "image": "./images/Mr_Smithy.png"
+  },
+  {
+    "id": 9,
+    "name": "Rocko Wallaby",
+    "image": "./images/Rocko_Wallaby.png"
+  },
+  {
+    "id": 10,
+    "name": "Slippy The Slug",
+    "image": "./images/Slippy_the_Slug.png"
+  },
+  {
+    "id": 11,
+    "name": "Spunky",
+    "image": "./images/Spunky.png"
+  },
+  {
+    "id": 12,
+    "name": "Wallace",
+    "image": "./images/Wallace.png"
+  }
+]

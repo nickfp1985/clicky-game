@@ -1,19 +1,76 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ImageCard from "./components/ImageCard";
+import Wrapper from "./components/Wrapper";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import characters from "./characters.json";
+import "./App.css";
 
 class App extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    characters
+  };
+
+  
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Hero backgroundImage="./images/rockos-modern-life.jpeg">
+        <h1>Rocko's Clicky Game</h1>
+        {this.state.characters.map(character => (
+          <ImageCard
+            id={character.id}
+            key={character.id}
+            image={character.image}
+          />
+        ))}
+      </Hero>
+      <Container style={{ marginTop: 20 }}>
+        <Row>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+          <Col size="md-12">
+            <h3>image cards go here!</h3>
+          </Col>
+        </Row>
+      </Container>
+      <Footer />
     );
   }
 }
