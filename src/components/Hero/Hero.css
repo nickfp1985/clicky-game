@@ -1,8 +1,10 @@
 .hero {
-  height: 500px;
   background-size: cover;
   background-position: center;
+  background-image: url("https://images.justwatch.com/backdrop/46790762/s1440/rockos-modern-life");
   position: relative;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
 }
 
 .hero::after {
@@ -28,6 +30,6 @@
 
 .hero h1 {
   font-size: 60px;
-  padding-top: 140px;
+  padding-top: 40px;
   margin-top: 0;
 }

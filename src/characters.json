@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Edward Bighead",
-    "image": "./images/Edward_Bighead.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/4/48/DVD_Illustration_Ed_1.png/revision/latest?cb=20130929143708"
   },
   {
     "id": 2,
     "name": "Dr Hutchinson",
-    "image": "./images/Dr_Hutchinson.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/6/64/Hutchinson.png/revision/latest?cb=20171026103513"
   },
   {
     "id": 3,
     "name": "Filburt",
-    "image": "./images/Filburt.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/4/4d/Filburt.png/revision/latest?cb=20131104020005"
   },
   {
     "id": 4,
     "name": "Frank Hutchinson",
-    "image": "./images/Frank_Hutchison.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/2/2b/Frank.png/revision/latest?cb=20130823031417"
   },
   {
     "id": 5,
     "name": "Heffer Wolfe",
-    "image": "./images/Heffer_Wolfe.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/c/c8/Heffer_Wolfe.png/revision/latest?cb=20131104020306"
   },
   {
     "id": 6,
-    "name": "Judge Sockner",
-    "image": "./images/Judge_Sockner.png"
+    "name": "Peaches",
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/e/e2/Peach.png/revision/latest?cb=20130629140733"
   },
   {
     "id": 7,
-    "name": "Mr Dupette",
-    "image": "./images/Mr_Dupette.png"
+    "name": "Really Really Big Man",
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/f/f7/Rrbm.png/revision/latest?cb=20130403030403"
   },
   {
     "id": 8,
     "name": "Mr Smithy",
-    "image": "./images/Mr_Smithy.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/c/c7/Mr_smitty.png/revision/latest?cb=20130403025122"
   },
   {
     "id": 9,
     "name": "Rocko Wallaby",
-    "image": "./images/Rocko_Wallaby.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/5/5e/Rocko_Wallaby.png/revision/latest?cb=20130920192204"
   },
   {
     "id": 10,
     "name": "Slippy The Slug",
-    "image": "./images/Slippy_the_Slug.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/0/07/Slippy_the_Slug.png/revision/latest?cb=20131011223720"
   },
   {
     "id": 11,
     "name": "Spunky",
-    "image": "./images/Spunky.png"
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/3/31/Spunky.png/revision/latest?cb=20131103173628"
   },
   {
     "id": 12,
-    "name": "Wallace",
-    "image": "./images/Wallace.png"
+    "name": "Gladys Hippo",
+    "image": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/b/bf/Big_Fat_Hippo_Lady.png/revision/latest?cb=20120208082937"
   }
 ]
