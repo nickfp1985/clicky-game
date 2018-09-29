@@ -1,12 +1,7 @@
-.card > .remove:hover {
-  color: #d50000;
-}
-
 .image-container {
   display: flex;
   flex-direction: row;
   flex: 1 0 20%;
-  margin: 5px;
 }
 
 img {

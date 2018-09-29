@@ -18,20 +18,22 @@ class App extends Component {
 
   handle
 
-  shuffleArray = (characters) => {
-    let j, x, i;
+  shuffleArray = () => {
+    let j, x, i, characters = this.state.characters;
+    console.log('foo');
+    
     for (i = characters.length - 1; i > 0; i--) {
       j = Math.floor(Math.random() * (i + 1));
       x = characters[i];
       characters[i] = characters[j];
       characters[j] = x;
     }
-    return characters;
+    this.setState({ characters });
   };
 
   handleImageClick = () => {
     this.shuffleArray();
-    this.handleClickCount();
+    // this.handleClickCount();
     let clicked = this.state.correctClicks
   };
   
@@ -44,12 +46,16 @@ class App extends Component {
           <h1>Rocko's Clicky Game</h1>
           <h2>Click on any image to earn points, but if you click an image twice it's game over!</h2>
         </Hero>
+        <div className='img-wrapper'>
         {this.state.characters.map(character => (
           <ImageCard
+            key={character.id}
             id={character.id}
+            handleImageClick={this.handleImageClick}
             image={character.image}
           />
         ))}
+        </div>
       </Wrapper>
     );
   }

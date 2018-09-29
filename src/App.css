@@ -1,5 +1,16 @@
-.App {
+/* .App {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: darkcyan;
+} */
+
+.card {
+  flex: 4;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }

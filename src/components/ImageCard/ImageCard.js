@@ -1,10 +1,10 @@
 import React from "react";
 import "./ImageCard.css";
 
-const ImageCard = props => (
-  <div className="card" onClick="handleImageClick(id)">
+const ImageCard = ({id, name, image, handleImageClick}) => (
+  <div className="card" onClick={() => handleImageClick(id)}>
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img alt={name} src={image} />
     </div>
   </div>
 );

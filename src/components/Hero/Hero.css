@@ -1,7 +1,4 @@
 .hero {
-  background-size: cover;
-  background-position: center;
-  background-image: url("https://images.justwatch.com/backdrop/46790762/s1440/rockos-modern-life");
   position: relative;
   text-align: center;
   padding: 0px 10px 0px 10px;
@@ -9,19 +6,16 @@
 
 .hero::after {
   content: "";
-  display: block;
   opacity: .4;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: black;
-}
-
-.hero * {
-  position: relative;
-  z-index: 2;
+  height: 250px;
+  background-image: url("https://images.justwatch.com/backdrop/46790762/s1440/rockos-modern-life");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1, .hero h2 {
