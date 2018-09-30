@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = ({score, topScore}) => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar">
     <div>
       <h2>Rocko's Clicky Game</h2>
     </div>

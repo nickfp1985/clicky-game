@@ -1,25 +1,11 @@
 .hero {
-  position: relative;
+  height: 250px;
+  background-image: url("https://3m84r11gpx1j11puas2g5wfl-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/rocksmodernlife-768x527.jpg");
+  background-size: contain;
+  align-content: center;
   text-align: center;
   padding: 0px 10px 0px 10px;
-}
-
-.hero::after {
-  content: "";
-  opacity: .4;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 250px;
-  background-image: url("https://images.justwatch.com/backdrop/46790762/s1440/rockos-modern-life");
-  background-size: cover;
-  background-position: center;
-}
-
-.hero h1, .hero h2 {
-  color: white;
+  width: 85%;
 }
 
 .hero h1 {

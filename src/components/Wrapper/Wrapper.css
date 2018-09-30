@@ -1,6 +1,12 @@
 .wrapper {
-  background: palevioletred;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  background-image: url(./rocko-shirt.png);
+  background-repeat: repeat;
+  align-items: center;
+}
+
+.img-wrapper {
+  align-content: center;
 }
